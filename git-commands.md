@@ -52,6 +52,14 @@ git remote -v
 git push origin <branchname>
 // pushes current code to specified branch.
 
+
+# pushing to remote ssh server
+git remote set-url origin <git@github.com:user.git>
+// sets origin (especially good for private repos)
+
+git remote rm origin
+// removes origin
+
 # git-branches
 
 git branch
